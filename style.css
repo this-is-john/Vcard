@@ -1,0 +1,110 @@
+body{
+	background-color: #6BB9F0;
+}
+
+h1 {
+    margin: 0 auto;
+    margin-top: 70px;
+    text-align: center;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 50px;
+    width: 680px;
+    line-height: 150%;
+}
+
+.mypix {
+    width: 250px;
+    border-radius: 800px 800px 800px 800px;
+    margin-left: 800px;
+    margin-top: 100px;
+    margin-bottom: -135px;
+}
+
+.mypix:hover{
+  animation: roll 1s infinite;
+  transform: rotate(30deg);
+}
+
+@keyframes roll {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+
+}
+
+.container{
+	margin: 0 auto;
+	width: 500px;
+	margin-top: 50px;	 
+}
+
+.cloud{
+	width: 150px;
+	animation: balance 2s infinite;
+	animation-direction: alternate;
+
+}
+
+@keyframes balance{
+	from { transform: rotate( 7deg) }
+    to   { transform: rotate( -7deg) }
+
+  }
+
+svg{
+	width: 150px;
+}
+
+.cloud1 {
+    float: right;
+    position: relative;
+    top: 145px;
+    left: 274px;
+}
+
+.cloud2 {
+    position: relative;
+    right: 275px;
+    top: 100px;
+}
+
+.cloud3 {
+    position: relative;
+    left: -159px;
+    margin-bottom: -79px;
+    margin-top: -70px;
+}
+
+.cloud4 {
+    position: relative;
+    left: 500px;
+    margin-bottom: -263px;
+}
+
+.cloud5{
+	float: left;
+	position: relative;
+	right: 280px;
+	top: 100px;
+}
+
+p{
+	font-family: 'Raleway', serif;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 190%;
+	margin-top: 30px;
+	width: 500px;
+	
+}
+
+li img, li{
+	list-style-type: none;
+	width: 51px; 
+	float: left;
+	margin: 0 auto;
+	padding-right: 15px; 
+}
